@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>Login/Register</title>
+    
+</head>
+<body>
+    <h1>Login/Register</h1>
+
+    <form action="/register" method="POST">
+        <input type="email" name="email" placeholder="Email" required><br>
+        <input type="text" name="firstname" placeholder="First Name" required><br>
+        <input type="text" name="lastname" placeholder="Last Name" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <button type="submit">Register</button>
+    </form>
+
+    <form action="/login" method="POST">
+        <input type="email" name="email" placeholder="Email" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
